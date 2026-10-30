@@ -18,18 +18,31 @@
   <header class="header">
     <div class="container nav-container">
       <a href="#" class="logo">BrandName</a>
-      <nav class="nav-links">
+      
+      <!-- Навигация (десктоп и мобильное выпадающее меню) -->
+      <nav class="nav-links" id="navLinks">
         <a href="#">Home</a>
         <a href="#">Product</a>
         <a href="#">Pricing</a>
         <a href="#">Contact</a>
+        <div class="mobile-nav-actions">
+          <a href="#" class="btn-login">Login</a>
+          <a href="#" class="btn-primary btn-member">Become a member</a>
+        </div>
       </nav>
+
       <div class="nav-actions">
-        <a href="#" class="btn-login">Login</a>
-        <a href="#" class="btn-primary btn-member">
+        <a href="#" class="btn-login desktop-login">Login</a>
+        <a href="#" class="btn-primary btn-member desktop-member">
           Become a member 
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </a>
+        <!-- Кнопка бургер-меню для мобильных -->
+        <div class="burger" id="burgerBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   </header>
@@ -65,7 +78,6 @@
       </div>
 
       <div class="features-grid">
-        <!-- Карточка 1 -->
         <div class="feature-card">
           <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
           <div class="feature-text">
@@ -73,7 +85,6 @@
             <p>the quick fox jumps over the lazy dog</p>
           </div>
         </div>
-        <!-- Карточка 2 -->
         <div class="feature-card">
           <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
           <div class="feature-text">
@@ -81,7 +92,6 @@
             <p>the quick fox jumps over the lazy dog</p>
           </div>
         </div>
-        <!-- Карточка 3 -->
         <div class="feature-card">
           <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
           <div class="feature-text">
@@ -89,7 +99,6 @@
             <p>the quick fox jumps over the lazy dog</p>
           </div>
         </div>
-        <!-- Карточка 4 -->
         <div class="feature-card">
           <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
           <div class="feature-text">
@@ -97,7 +106,6 @@
             <p>the quick fox jumps over the lazy dog</p>
           </div>
         </div>
-        <!-- Карточка 5 -->
         <div class="feature-card">
           <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
           <div class="feature-text">
@@ -105,7 +113,6 @@
             <p>the quick fox jumps over the lazy dog</p>
           </div>
         </div>
-        <!-- Карточка 6 -->
         <div class="feature-card">
           <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
           <div class="feature-text">
@@ -126,7 +133,6 @@
       </div>
 
       <div class="testimonial-wrapper">
-        <!-- Карточка отзыва -->
         <img src="row.png" alt="Client Review - Regina Miles" class="testimonial-img">
       </div>
     </div>
@@ -295,6 +301,17 @@
       </div>
     </div>
   </footer>
+
+  <!-- СКРИПТ ДЛЯ МОБИЛЬНОГО БУРГЕР-МЕНЮ -->
+  <script>
+    const burgerBtn = document.getElementById('burgerBtn');
+    const navLinks = document.getElementById('navLinks');
+
+    burgerBtn.addEventListener('click', () => {
+      burgerBtn.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+  </script>
 
 </body>
 </html>
