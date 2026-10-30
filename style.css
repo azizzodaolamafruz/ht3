@@ -24,7 +24,6 @@ a {
   padding: 0 20px;
 }
 
-/* ФОНОВЫЕ ДЕКОРАЦИИ */
 .circle-bg {
   position: absolute;
   border-radius: 50%;
@@ -39,7 +38,6 @@ a {
   left: -80px;
 }
 
-/* КНОПКИ */
 .btn-primary {
   background-color: #23A6F0;
   color: #FFFFFF;
@@ -79,7 +77,6 @@ a {
   width: 100%;
 }
 
-/* ШАПКА / НАВИГАЦИЯ */
 .header {
   position: relative;
   z-index: 100;
@@ -135,7 +132,6 @@ a {
   display: none;
 }
 
-/* БУРГЕР КНОПКА (скрыта на десктопе) */
 .burger {
   display: none;
   flex-direction: column;
@@ -155,7 +151,6 @@ a {
   transition: all 0.3s ease;
 }
 
-/* HERO СЕКЦИЯ */
 .hero {
   position: relative;
   z-index: 1;
@@ -215,15 +210,12 @@ a {
   height: auto;
 }
 
-/* РАЗДЕЛИТЕЛЬ */
 .section-divider {
   width: 100%;
   height: 2px;
   background-color: #23A6F0;
   margin-bottom: 80px;
 }
-
-/* ЗАГОЛОВКИ СЕКЦИЙ */
 .section-header {
   text-align: center;
   margin-bottom: 60px;
@@ -241,7 +233,6 @@ a {
   line-height: 1.4;
 }
 
-/* СЕКЦИЯ КАРТОЧЕК-ФУНКЦИЙ */
 .features {
   padding-bottom: 100px;
 }
@@ -288,7 +279,6 @@ a {
   line-height: 1.4;
 }
 
-/* СЕКЦИЯ ОТЗЫВОВ */
 .testimonials {
   padding-bottom: 120px;
 }
@@ -305,7 +295,6 @@ a {
   border-radius: 6px;
 }
 
-/* СЕКЦИЯ СКАЧИВАНИЯ ПРИЛОЖЕНИЯ */
 .download-app {
   padding: 40px 0 80px 0;
 }
@@ -345,7 +334,6 @@ a {
   font-weight: 700;
 }
 
-/* СЕКЦИЯ ЦЕН (PRICING) */
 .pricing {
   padding: 40px 0 100px 0;
 }
@@ -424,7 +412,6 @@ a {
   font-weight: 600;
 }
 
-/* СЕКЦИЯ КАРТЫ МИРА */
 .branches {
   padding: 60px 0;
 }
@@ -458,7 +445,6 @@ a {
   height: auto;
 }
 
-/* СЕКЦИЯ БРОНИРОВАНИЯ */
 .appointment-section {
   padding: 80px 0 0 0;
 }
@@ -527,7 +513,6 @@ a {
   border-color: #23A6F0;
 }
 
-/* ФУТЕР */
 .footer {
   background-color: #171B2A;
   padding: 80px 0 50px 0;
@@ -576,7 +561,6 @@ a {
   color: #23A6F0;
 }
 
-/* АДАПТИВНОСТЬ ДЛЯ ПЛАНШЕТОВ И ТЕЛЕФОНОВ */
 @media (max-width: 900px) {
   .hero-container {
     flex-direction: column;
@@ -612,7 +596,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  /* Включаем бургер-меню */
   .burger {
     display: flex;
   }
@@ -622,7 +605,6 @@ a {
     display: none;
   }
 
-  /* Стили выпадающего мобильного меню */
   .nav-links {
     position: fixed;
     top: 0;
@@ -654,7 +636,6 @@ a {
     margin-top: 20px;
   }
 
-  /* Анимация иконки бургера в крестик */
   .burger.active span:nth-child(1) {
     transform: translateY(8.5px) rotate(45deg);
   }
