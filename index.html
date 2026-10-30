@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BrandName - Download App & Pricing</title>
+  <title>BrandName - Financial Assistance & App</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,128 @@
 </head>
 <body>
 
-  <!-- DOWNLOAD OUR APP SECTION -->
+  <!-- Фон-декорация -->
+  <div class="circle-bg circle-top-left"></div>
+
+  <!-- ШАПКА / НАВИГАЦИЯ -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">BrandName</a>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#" class="btn-login">Login</a>
+        <a href="#" class="btn-primary btn-member">
+          Become a member 
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- СЕКЦИЯ HERO -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1>Financial Assistance With True Purpose</h1>
+        <p>We know how large objects will act, but things on a small scale.</p>
+        <div class="hero-btns">
+          <a href="#" class="btn-primary">Get Quote Now</a>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="phone-bg-circle"></div>
+        <!-- Изображение смартфона -->
+        <img src="col-md-6.png" alt="Mobile Mockup" class="phone-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- РАЗДЕЛИТЕЛЬ -->
+  <div class="section-divider"></div>
+
+  <!-- СЕКЦИЯ ФУНКЦИЙ / УСЛУГ -->
+  <section class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Better Strategy With Quality Business</h2>
+        <p>Problems trying to resolve the conflict between<br>the two major realms of Classical physics: Newtonian mechanics</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Карточка 1 -->
+        <div class="feature-card">
+          <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
+          <div class="feature-text">
+            <h3>Investment Trading</h3>
+            <p>the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+        <!-- Карточка 2 -->
+        <div class="feature-card">
+          <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
+          <div class="feature-text">
+            <h3>Support On Raising Funds</h3>
+            <p>the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+        <!-- Карточка 3 -->
+        <div class="feature-card">
+          <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
+          <div class="feature-text">
+            <h3>Financial Analysis</h3>
+            <p>the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+        <!-- Карточка 4 -->
+        <div class="feature-card">
+          <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
+          <div class="feature-text">
+            <h3>Taxation Planning</h3>
+            <p>the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+        <!-- Карточка 5 -->
+        <div class="feature-card">
+          <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
+          <div class="feature-text">
+            <h3>Save money and tim</h3>
+            <p>the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+        <!-- Карточка 6 -->
+        <div class="feature-card">
+          <img src="icn resize .icn-xl.png" alt="Icon" class="feature-icon-img">
+          <div class="feature-text">
+            <h3>Outsourced Consulting Busin</h3>
+            <p>the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЕКЦИЯ ОТЗЫВОВ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Clients Say</h2>
+        <p>Problems trying to resolve the conflict between<br>the two major realms of Classical physics: Newtonian mechanics</p>
+      </div>
+
+      <div class="testimonial-wrapper">
+        <!-- Карточка отзыва -->
+        <img src="row.png" alt="Client Review - Regina Miles" class="testimonial-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- СЕКЦИЯ СКАЧИВАНИЯ ПРИЛОЖЕНИЯ -->
   <section class="download-app">
     <div class="container">
       <div class="section-header">
@@ -20,46 +141,27 @@
       </div>
 
       <div class="app-buttons">
-        <!-- App Store -->
         <a href="#" class="app-btn">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.62-.75 1.04-1.8 0.92-2.85-.9.04-2 .6-2.65 1.35-.58.67-1.09 1.75-.95 2.78 1.01.08 2.06-.53 2.68-1.28z"/></svg>
-          <div class="btn-text">
-            <span>Download on</span>
-            <strong>App Store</strong>
-          </div>
+          <div class="btn-text"><span>Download on</span><strong>App Store</strong></div>
         </a>
-
-        <!-- Google Play -->
         <a href="#" class="app-btn">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5v-17c0-.55.45-1 1-1 .2 0 .38.06.53.16l14.5 8.5c.6.35.6 1.33 0 1.68l-14.5 8.5c-.15.1-.33.16-.53.16-.55 0-1-.45-1-1z"/></svg>
-          <div class="btn-text">
-            <span>Download on</span>
-            <strong>Google Play</strong>
-          </div>
+          <div class="btn-text"><span>Download on</span><strong>Google Play</strong></div>
         </a>
-
-        <!-- Amazon -->
         <a href="#" class="app-btn">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.93 17.09c-2.43 1.79-5.96 2.73-8.98 2.73-4.23 0-8.03-1.56-10.95-4.17-.23-.21-.02-.5.25-.34 3.12 1.83 7 2.93 11.02 2.93 2.68 0 5.62-.64 8.23-1.95.4-.2.78.23.43.8zm1.79-2.22c-.31-.4-.82-1.39-1.25-2.07-.15-.24.08-.43.3-.26 1.45 1.13 3.86 2.37 4.3 2.67.44.29.35.81.04 1.09-.32.28-1.26 1.18-2.12 1.99-.21.2-.47.1-.37-.15.34-.84 1.05-2.1 1.1-2.27z"/></svg>
-          <div class="btn-text">
-            <span>Download on</span>
-            <strong>Amazon.com</strong>
-          </div>
+          <div class="btn-text"><span>Download on</span><strong>Amazon.com</strong></div>
         </a>
-
-        <!-- Windows Store -->
         <a href="#" class="app-btn">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m0 1.05h9.75v9.451L0 20.551M10.8 1.95L24 0v11.55H10.8M24 12.45V24l-13.2-1.95V12.45"/></svg>
-          <div class="btn-text">
-            <span>Download on</span>
-            <strong>Windows Store</strong>
-          </div>
+          <div class="btn-text"><span>Download on</span><strong>Windows Store</strong></div>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- PRICING SECTION -->
+  <!-- СЕКЦИЯ ЦЕН (PRICING) -->
   <section class="pricing">
     <div class="container">
       <div class="section-header">
@@ -68,7 +170,6 @@
       </div>
 
       <div class="pricing-grid">
-        <!-- Free Plan -->
         <div class="pricing-card">
           <div class="card-info">
             <h3>FREE</h3>
@@ -77,16 +178,12 @@
           <div class="card-action">
             <div class="price">
               <span class="amount">0</span>
-              <div class="price-period">
-                <span class="currency">$</span>
-                <span class="per">Per Month</span>
-              </div>
+              <div class="price-period"><span class="currency">$</span><span class="per">Per Month</span></div>
             </div>
             <a href="#" class="btn-primary">Try for free</a>
           </div>
         </div>
 
-        <!-- Standard Plan -->
         <div class="pricing-card">
           <div class="card-info">
             <h3>STANDARD</h3>
@@ -95,10 +192,7 @@
           <div class="card-action">
             <div class="price">
               <span class="amount">19</span>
-              <div class="price-period">
-                <span class="currency">$</span>
-                <span class="per">Per Month</span>
-              </div>
+              <div class="price-period"><span class="currency">$</span><span class="per">Per Month</span></div>
             </div>
             <a href="#" class="btn-primary">Try for free</a>
           </div>
@@ -107,7 +201,7 @@
     </div>
   </section>
 
-  <!-- BRANCHES MAP SECTION -->
+  <!-- СЕКЦИЯ КАРТЫ МИРА -->
   <section class="branches">
     <div class="container branches-container">
       <div class="branches-content">
@@ -115,18 +209,18 @@
         <p>The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th century, which gave some indications about how small things do behave, produced an increasing confusion which was Heisenberg, and Born.</p>
       </div>
       <div class="branches-map">
-        <!-- World Map Image (col-md-5.png) -->
+        <!-- Карта мира (col-md-5.png) -->
         <img src="col-md-5.png" alt="World Map Branches">
       </div>
     </div>
   </section>
 
-  <!-- BOOK APPOINTMENT SECTION -->
+  <!-- СЕКЦИЯ БРОНИРОВАНИЯ -->
   <section class="appointment-section">
     <div class="container">
       <div class="appointment-card">
         <div class="appointment-image">
-          <!-- Man on Phone Image (edc66ab86302420b9b0c5a99732fba1cf0e574e4.jpg) -->
+          <!-- Фото мужчины на телефоне -->
           <img src="edc66ab86302420b9b0c5a99732fba1cf0e574e4.jpg" alt="Man on phone">
         </div>
         <div class="appointment-form-wrapper">
@@ -163,7 +257,7 @@
     </div>
   </section>
 
-  <!-- FOOTER SECTION -->
+  <!-- ФУТЕР -->
   <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-col">
